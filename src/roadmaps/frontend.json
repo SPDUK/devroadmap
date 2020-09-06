@@ -1,0 +1,20 @@
+{
+  "beginner": [
+    {
+      "link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "title": "CSS Basics"
+    }
+  ],
+  "intermediate": [
+    {
+      "link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "title": "CSS animations"
+    }
+  ],
+  "advanced": [
+    {
+      "link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "title": "CSS responsive design"
+    }
+  ]
+}
