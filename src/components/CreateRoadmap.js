@@ -7,8 +7,8 @@ const createRoadMap = ({ roadmap: { title, difficulties } }) => (
     {Object.keys(difficulties).map(key => (
       <div key={key}>
         <h3>{key}</h3>
-        {difficulties[key].map(({ link, title }) => (
-          <RoadmapLink link={link} title={title} />
+        {difficulties[key].map(link => (
+          <RoadmapLink difficulty={key} roadmapTitle={title} link={link} />
         ))}
         <br />
       </div>
