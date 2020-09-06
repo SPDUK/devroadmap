@@ -1,0 +1,27 @@
+{
+  "title": "Javascript",
+  "difficulties": {
+    "beginner": [
+      {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "title": "Node.js basics"
+      },
+      {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "title": "Node.js stuff 2"
+      }
+    ],
+    "intermediate": [
+      {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "title": "Node.js intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "title": "Advanced Node.js"
+      }
+    ]
+  }
+}

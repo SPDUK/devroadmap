@@ -1,0 +1,27 @@
+{
+  "title": "CSS",
+  "difficulties": {
+    "beginner": [
+      {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "title": "CSS Basics"
+      }
+    ],
+    "intermediate": [
+      {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "title": "CSS animations"
+      },
+      {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "title": "CSS cool stuff 2"
+      }
+    ],
+    "advanced": [
+      {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "title": "CSS responsive design"
+      }
+    ]
+  }
+}
