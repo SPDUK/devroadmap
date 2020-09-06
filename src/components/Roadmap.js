@@ -1,30 +1,25 @@
-import React from 'react'
-import frontendRoadmap from "../roadmaps/frontend.json";
+import React from 'react';
+import frontendRoadmap from '../roadmaps/frontend.json';
 
 const { beginner, intermediate, advanced } = frontendRoadmap;
 
-const createRoadmapLink = ({ link, title }) => {
-  return (<div key={link}>
+const createRoadmapLink = ({ link, title }) => (
+  <div key={link}>
     <a href={link}>{title}</a>
-  </div>)
-}
+  </div>
+);
 
-const Roadmap = () => {
-  return (
-    <div>
-      Beginner:
-      {beginner.map(createRoadmapLink)}
-      <br />
-      Intermediate:
-      {intermediate.map(createRoadmapLink)}
-      <br />
+const Roadmap = () => (
+  <div>
+    Beginner:
+    {beginner.map(createRoadmapLink)}
+    <br />
+    Intermediate:
+    {intermediate.map(createRoadmapLink)}
+    <br />
     Advanced:
-      {advanced.map(createRoadmapLink)}
-
-
-    </div>
-  )
-}
-
+    {advanced.map(createRoadmapLink)}
+  </div>
+);
 
 export default Roadmap;
